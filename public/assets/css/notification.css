@@ -1,0 +1,49 @@
+.message {
+  width: 450px;
+  margin-left: -125px;
+  border-radius: 2px;
+	color: #fff!important;
+	font-size: 16px;
+  position: fixed;
+  z-index: 99;
+  right: 2%;
+  top: 2%;
+  -webkit-animation: cssAnimation 5s forwards;
+  animation: cssAnimation 5s forwards;
+}
+
+@keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0; visibility: hidden; display: none;}
+}
+
+@-webkit-keyframes cssAnimation {
+    0%   {opacity: 1;}
+    90%  {opacity: 1;}
+    100% {opacity: 0; visibility: hidden; display: none;}
+}
+
+.notification {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	color: #fff!important;
+	font-size: 16px;
+	padding: 15px 20px;
+	line-height: 20px;
+	margin-bottom: 15px;
+	animation: grow 0.5s ease-in forwards;
+}
+
+.notification-info {
+	background-color: #00cae3;
+}
+
+.notification-success {
+	background-color: #55b559;
+}
+
+.notification-danger {
+	background-color: #f55145;
+}
